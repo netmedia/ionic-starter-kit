@@ -1,5 +1,0 @@
-1. Uci u 'trunk' folder
-2. Pokrenuti sljedece naredbe iz Command Prompt-a
-- npm install       (Instalira sve npm module potrebne za Gulp)
-- gulp install      (Download ionic i angular javascript file-ova)
-- ionic platform add android  (Instalira android platformu i sve plugine definirane u package.json file-u)
