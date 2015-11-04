@@ -32,3 +32,10 @@ $ ionic build android/ios [--production]
 ```
 
 *--production* flag means that application will be shipped with minified and uglified javascript/css assets and optimized for production. Unnecessary files will be deleted and excluded from executable file (.apk/.ipa) so the application will be smaller size when uploading on Google play and Apple store. Also, the app version will be automatically increased by one (only the patch number e.g. 0.0.1 --> 0.0.2).
+
+***Run application in browser***
+```javascript
+$ ionic serve [--nolivereload]
+```
+
+*--nolivereload* flag disables browser to be reloaded after every change made in the code. This helps Gulp *watch* task to build and bundle all assets into single file but you'll have to reload browser manually.
