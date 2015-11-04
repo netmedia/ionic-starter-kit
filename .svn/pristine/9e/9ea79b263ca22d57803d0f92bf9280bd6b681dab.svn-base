@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!-- @if ENVIRONMENT='development' -->
+    <link href="css/app.css" rel="stylesheet">
+    <!-- @endif -->
+
+    <!-- @if ENVIRONMENT='production' -->
+    <link href="css/app.min.css" rel="stylesheet">
+    <!-- @endif -->
+
+    <script src="js/bundles/vendor.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- @if ENVIRONMENT='development' -->
+    <script src="js/bundles/app.bundle.js"></script>
+    <!-- @endif -->
+
+    <!-- @if ENVIRONMENT='production' -->
+    <script src="js/bundles/app.bundle.min.js"></script>
+    <!-- @endif -->
+  </head>
+
+  <body ng-app="App">
+    <ion-nav-view></ion-nav-view>
+  </body>
+</html>
