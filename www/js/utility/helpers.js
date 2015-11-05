@@ -13,8 +13,6 @@
 
   helperModule.service('Helpers', [
     '$rootScope',
-    '$state',
-    '$window',
     'AppConfig',
     'globals',
     Helpers
@@ -25,7 +23,7 @@
    *
    * @return {object} this
    */
-  function Helpers($rootScope, $state, $window, AppConfig, globals) {
+  function Helpers($rootScope, AppConfig, globals) {
 
     var scope = {
       handleHttpResponse: _handleHttpResponse,
@@ -37,7 +35,8 @@
 
     /*
      * Handles all kinds of http responses if it's not required to be hendled inside the controller.
-     * Displays notification with a message received from the server. 
+     * This implementation really depends of how you construct your backend logic but in general
+     * you should have one place for handling API requests.
      *
      * @param   {object} response
      * @return  {object}
@@ -54,12 +53,9 @@
         message = 'Server error';
       }
 
-      // if (message) {
-      //   $rootScope.rootData.notification.show({
-      //     title: type,
-      //     message: message
-      //   }, 'note-' + type);
-      // }
+      if (message) {
+        // Default logic for API responses
+      }
 
       return response;
     };  

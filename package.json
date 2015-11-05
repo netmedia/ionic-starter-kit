@@ -1,7 +1,16 @@
 {
   "name": "ionicStartupKit",
-  "version": "1.0.0",
-  "description": "ionicStartupKit: An Ionic project boilerplate",
+  "version": "0.0.1",
+  "description": "ionicStartupKit: Ionic project boilerplate",
+  "author": {
+    "name": "NET Media international services ltd.",
+    "email": "netmedia@netmedia.hr",
+    "url": "http://netmedia.hr/"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/netmedia/ionic-starter-kit.git"
+  },
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^1.3.3",
@@ -28,5 +37,6 @@
     "com.ionic.keyboard",
     "cordova-plugin-whitelist"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [],
+  "license": "MIT"
 }
