@@ -3,6 +3,10 @@
 This repository represents a boilerplate to start work with Ionic mobile project. It's a blank project with prepared Gulp tasks, hooks and angularJS organization to make a modular and reusable code.
 The code organization is inevitable when project starts to grow and application becomes much harder to maintain. So the key is to organize your files well and make your logic modular and reusable through whole app (and for other projects as well).
 
+### Blog posts
+We also described every detail of creating the project in series of blog posts where you can go step by step to see how every part of the application fits together.
+[NetMedia Blog](http://netmedia.io/mobile-development/cordova-hooks-properly-set-mobile-app-project-using-ionic-framework_5433)
+
 ### Quick start
 There's only a few steps you have to do in order to run the application. It implies you have installed all necessary tools for building Ionic project (android/ios sdk, ionic, cordova, node, git ...) which is not covered in this topic. Also, you have to be in root project directory when executing the following commands.
 
