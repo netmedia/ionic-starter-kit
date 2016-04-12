@@ -5,11 +5,11 @@ The code organization is inevitable when project starts to grow and application 
 
 ### Blog posts
 We also described every detail of creating the project in series of blog posts where you can go step by step to see how every part of the application fits together.
-[Introduction](http://netmedia.io/mobile-development/4-steps-to-properly-set-mobile-app-project-using-ionic-framework-introduction_5356)
-[Blank Ionic mobile project setup (1/4)](hhttp://netmedia.io/mobile-development/blank-ionic-mobile-project-setup_5392)
-[Organize AngularJS code (2/4)](http://netmedia.io/mobile-development/organize-angularjs-code-mobile-app-project-ionic-framework_5413)
-[Gulp tasks (3/4)](http://netmedia.io/mobile-development/gulp-tasks-34-steps-to-properly-set-mobile-app-project-using-ionic-framework_5420)
-[Cordova hooks (4/4)](http://netmedia.io/mobile-development/cordova-hooks-properly-set-mobile-app-project-using-ionic-framework_5433)
+- [Introduction](http://netmedia.io/mobile-development/4-steps-to-properly-set-mobile-app-project-using-ionic-framework-introduction_5356)
+- [Blank Ionic mobile project setup (1/4)](hhttp://netmedia.io/mobile-development/blank-ionic-mobile-project-setup_5392)
+- [Organize AngularJS code (2/4)](http://netmedia.io/mobile-development/organize-angularjs-code-mobile-app-project-ionic-framework_5413)
+- [Gulp tasks (3/4)](http://netmedia.io/mobile-development/gulp-tasks-34-steps-to-properly-set-mobile-app-project-using-ionic-framework_5420)
+- [Cordova hooks (4/4)](http://netmedia.io/mobile-development/cordova-hooks-properly-set-mobile-app-project-using-ionic-framework_5433)
 
 ### Quick start
 There's only a few steps you have to do in order to run the application. It implies you have installed all necessary tools for building Ionic project (android/ios sdk, ionic, cordova, node, git ...) which is not covered in this topic. Also, you have to be in root project directory when executing the following commands.
